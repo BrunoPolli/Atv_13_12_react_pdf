@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.docContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.docName {
+  width: fit-content;
+}
+
+/* .message {
+  display: none;
+  margin-left: 5px;
+  background-color: #237631;
+  width: fit-content;
+  padding: 5px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  
+} */
+
+.button {
+  text-decoration: none;
+  background-color: #237631;
+  width: fit-content;
+  padding: 5px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+span {
+  display: inline;
+  background-color: #237631;
+  width: fit-content;
+  padding: 5px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: #34a547;
+}
+
+.button:hover + span{
+  opacity: 1;
+  margin-left: 15px;
+}
